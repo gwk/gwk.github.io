@@ -1,11 +1,76 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>index.html</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
-  <style type="text/css">a { background-color: transparent; } a:active { outline: 0; } a:hover { outline: 0; } blockquote { border-left-color: #E0E0E0; border-left-style: solid; border-left-width: 0.333rem; margin: 0; padding: 0 0.677rem; } body { margin: 1rem; } body footer { border-top-color: #E8E8E8; border-top-style: solid; border-top-width: 1px; color: #606060; font-size: .875rem; margin: 1rem 0 0 0; } code { background-color: rgb(240, 240, 240); border-radius: 3px; font-family: source code pro, menlo, terminal, monospace; } footer { display: block; } h1 { font-size: 1.6rem; margin: 0.8rem 0; } h2 { font-size: 1.4rem; margin: 0.7rem 0; } h3 { font-size: 1.3rem; margin: 0.6rem 0; } h4 { font-size: 1.2rem; margin: 0.5rem 0; } h5 { font-size: 1.1rem; margin: 0.4rem 0; } h6 { font-size: 1.0rem; margin: 0.3rem 0; } header { display: block; } html { background: white; color: black; font-family: source sans pro, sans-serif; font-size: 1rem; } nav { display: block; } p { margin: 0.5rem 0; } pre { background: #F0F0F0; font-family: source code pro, menlo, terminal, monospace; font-size: 1rem; overflow: auto; padding: 0.1rem; border-radius: 4px; } section { display: block; } section.S1 { border-top-color: #E8E8E8; border-top-style: solid; border-top-width: 1px; margin: 1.6rem 0; } section.S2 { margin: 1.4rem 0; } section.S3 { margin: 1.3rem 0; } section.S4 { margin: 1.2rem 0; } section.S5 { margin: 1.1rem 0; } section.S6 { margin: 1.0rem 0; } section#s0 { border-top-width: 0; } table { font-family: sans-serif; color:#666; background:#eaebec; margin:16px; border:#ccc 1px solid; border-radius:3px; box-shadow: 0 1px 2px #d1d1d1; } table th { padding:20px 24px 20px 24px; border-top:1px solid #fafafa; border-bottom:1px solid #e0e0e0; background: #ededed; } table th:first-child { text-align: left; padding-left:20px; } table tr:first-child th:first-child { border-top-left-radius:3px; } table tr:first-child th:last-child { border-top-right-radius:3px; } table tr { text-align: left; padding-left:20px; } table td:first-child { text-align: left; padding-left:20px; border-left: 0; } table td { padding:8px; border-top: 1px solid #ffffff; border-bottom:1px solid #e0e0e0; border-left: 1px solid #e0e0e0; background: #fafafa; } table tr.even td { background: #f6f6f6; } table tr:last-child td { border-bottom:0; } table tr:last-child td:first-child { border-bottom-left-radius:3px; } table tr:last-child td:last-child { border-bottom-right-radius:3px; } table tr:hover td { background: #f2f2f2; } ul { line-height: 1.333rem; list-style-position: outside; list-style-type: disc; margin-left: 1rem; padding-left: 0.1rem; } @media print { @page { margin: 2cm; } }</style>
+  <meta charset="utf-8" />
+ <title>index.html</title>
+ <meta name="description" content="" />
+ <meta name="author" content="" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=" />
+  <style type="text/css">
+a { background-color: transparent; }
+a:active { outline: 0; }
+a:hover { outline: 0; }
+a:link { color: #1010A0; }
+a:visited { color: #301080; border-bottom: 3px solid; }
+blockquote { border-left-color: #E0E0E0; border-left-style: solid; border-left-width: 0.333rem; margin: 0; padding: 0 0.667rem; }
+body { margin: 0 auto; max-width: 64rem; border: transparent solid 0.5rem; }
+body footer { border-top-color: #E8E8E8; border-top-style: solid; border-top-width: 1px; color: #606060; font-size: .875rem; margin: 1rem 0 0 0; }
+code { font-family: source code pro, terminal, monospace; }
+code.inline { background-color: #F0F0F0; border-color: #D0D0D0; border-radius: 2px; border-style: solid; border-width: 0.5px; overflow-wrap: break-word; white-space: pre-wrap; }
+code.line { display: block; margin: 0; overflow-wrap: break-word; padding: 0 0 0 0.5rem; text-indent: -0.5rem; white-space: pre-wrap; }
+div.code-block { background-color: #F8F8F8; border-color: #D0D0D0; border-radius: 4px; border-style: solid; border-width: 0.5px; font-size: 1rem; margin: 1rem 0; padding: 0.1rem; }
+div.embed-label { background-color: #FFFFFF; border-bottom-style: none; border-color: #E0E0E0; border-style: solid solid none solid; border-top-left-radius: 4px; border-top-right-radius: 4px; border-width: 0.5px; color: #404040; display: inline-block; font-family: source code pro, terminal, monospace; font-size: 0.8rem; margin-top: 1rem; }
+div.embed-label + * { border-top-left-radius: 0; margin-top: 0.5px; }
+footer { display: block; }
+h1 { font-size: 1.8rem; margin: 0.9rem 0; }
+h2 { font-size: 1.6rem; margin: 0.8rem 0; }
+h3 { font-size: 1.4rem; margin: 0.7rem 0; }
+h4 { font-size: 1.3rem; margin: 0.65rem 0; }
+h5 { font-size: 1.2rem; margin: 0.6rem 0; }
+h6 { font-size: 1.1rem; margin: 0.55rem 0; }
+header { display: block; }
+html { background: white; color: black; font-family: source sans pro, sans-serif; font-size: 1rem; }
+nav { display: block; }
+p { margin: 0.5rem 0; }
+section { display: block; }
+section.S1 { border-top-color: #E8E8E8; border-top-style: solid; border-top-width: 1px; margin: 1.8rem 0; }
+section.S2 { margin: 1.6rem 0; }
+section.S3 { margin: 1.4rem 0; }
+section.S4 { margin: 1.3rem 0; }
+section.S5 { margin: 1.2rem 0; }
+section.S6 { margin: 1.1rem 0; }
+section#s0 { border-top-width: 0; }
+table { background: #F0F0F0; border-radius: 4px; border: #D0D0D0 0.5px solid; }
+table th { padding: 0.25rem 0.25rem; }
+table th:first-child { padding-left: 0.25rem; text-align: left; }
+table td { background: #FAFAFA; font-family: monospace; padding:0.25rem; white-space: pre; }
+table td:first-child { border-left: 0; padding-left: 0.25rem; text-align: left; }
+table tr { padding-left: 0.25rem; text-align: left; }
+table tr:last-child td { border-bottom: 0; }
+table tr:last-child td:first-child { border-bottom-left-radius: 2px; }
+table tr:last-child td:last-child { border-bottom-right-radius: 2px; }
+table tr:nth-child(odd) td { background: #FFFFFF; }
+table tr:nth-child(even) td { background: #FBFBFB; }
+table tr:hover td { background: #F0F0F0; }
+ul { line-height: 1.333rem; list-style-position: outside; list-style-type: disc; margin-left: 1rem; padding-left: 0.1rem; }
+@media print { @page { margin: 2cm; }
+}
+code.line span.ch{color: #606060;}
+code.line span.kn{color: #800080;}
+code.line span.nn{color: #000000;}
+code.line span.n{color: #000000;}
+code.line span.c1{color: #606060;}
+code.line span.o{color: #000000;}
+code.line span.s1{color: #008000;}
+code.line span.se{color: #008000;}
+code.line span.k{color: #800080;}
+code.line span.nf{color: #000000;}
+code.line span.p{color: #000000;}
+code.line span.bp{color: #000000;}
+code.line span.nb{color: #000000;}
+code.line span.mi{color: #0000E0;}
+code.line span.ow{color: #000000;}
+  </style>
   <script type="text/javascript"> "use strict";
 function scrollToElementId(id) {
   window.scrollTo(0, document.getElementById(id).offsetTop);
@@ -52,194 +117,252 @@ window.onkeypress = function(e) {
 </script>
 </head>
 <body id="body">
+<p>
+  2017-03-31
+</p>
 <section class="S1" id="s0">
   <h1 id="h0">Two-way communication between Unix processes using pipes</h1>
   <p>
-    This example shows how a parent/child pair of Unix processes can communicate synchronously using a pair of OS pipes. I developed the code as a proof-of-concept for <a href=https://gwk.github.io>Muck</a>, which needs to establish a duplex (two-way) channel between each build step so that dependencies can be sent to the parent build process on fly. Since Muck captures the <code>stdout</code> of each build step as the product and leaves <code>stderr</code> for error reporting to the user, Muck cannot use those file descriptors as the communication channel. Instead, it uses a dedicated pipe to send the dependency paths from the child to the parent, and a second pipe through which the parent writes an acknowledgement back to the child. By reading from the acknowledgment pipe, the child blocks until the <code>muck</code> parent process has updated the dependency.
+    This example shows how a parent/child pair of Unix processes can communicate synchronously using a pair of OS pipes. I developed the code as a proof-of-concept for <a href="https://gwk.github.io">Muck</a>, which needs to establish a duplex (two-way) channel between each build step so that dependencies can be sent to the parent build process on fly. Since Muck captures the <code class="inline">stdout</code> of each build step as the product and leaves <code class="inline">stderr</code> for error reporting to the user, Muck cannot use those file descriptors as the communication channel. Instead, it uses a dedicated pipe to send the dependency paths from the child to the parent, and a second pipe through which the parent writes an acknowledgement back to the child. By reading from the acknowledgment pipe, the child blocks until the <code class="inline">muck</code> parent process has updated the dependency.
   </p>
   <p>
     The solution is conceptually simple, but requires some attention to detail. While this implementation is written in Python 3.6, it should be straightforward to translate to other languages in a Unix-like environment.
   </p>
   <p>
-    First, the parent process creates two read/write pairs of file descriptors using <code>os.pipe</code>. One is the 'parent-to-child' pair, and the other is the 'child-to-parent'.
+    First, the parent process creates two read/write pairs of file descriptors using <code class="inline">os.pipe</code>. One is the 'parent-to-child' pair, and the other is the 'child-to-parent'.
   </p>
-  <pre>
-p_to_c_r, p_to_c_w = os.pipe() # parent-to-child.
-c_to_p_r, c_to_p_w = os.pipe() # child-to-parent.
-
-parent_pair = (c_to_p_r, p_to_c_w) # used by parent.
-child_pair  = (p_to_c_r, c_to_p_w) # used by child.</pre>
+<div class="code-block">
+<code class="line">p_to_c_r, p_to_c_w = os.pipe() # parent-to-child.</code>
+<code class="line">c_to_p_r, c_to_p_w = os.pipe() # child-to-parent.</code>
+<code class="line"></code>
+<code class="line">parent_pair = (c_to_p_r, p_to_c_w) # used by parent.</code>
+<code class="line">child_pair  = (p_to_c_r, c_to_p_w) # used by child.</code>
+</div>
   <p>
-    Note how we cross the pairs returned from <code>os.pipe</code> into a read/write pair for use by the parent, and another for the child (I mixed these up initially).
+    Note how we cross the pairs returned from <code class="inline">os.pipe</code> into a read/write pair for use by the parent, and another for the child (I mixed these up initially).
   </p>
   <p>
     Next, we create an environment for the child which communicates the child pair. Raw file descripters are just integers (essentially opaque table indices provided by the OS), so we can simply convert them to strings:
   </p>
-  <pre>
-env = os.environ.copy()
-env.update({
-  'CHILD_RECV' : str(child_pair[0]),
-  'CHILD_SEND' : str(child_pair[1]),
-})</pre>
+<div class="code-block">
+<code class="line">env = os.environ.copy()</code>
+<code class="line">env.update({</code>
+<code class="line">  'CHILD_RECV' : str(child_pair[0]),</code>
+<code class="line">  'CHILD_SEND' : str(child_pair[1]),</code>
+<code class="line">})</code>
+</div>
   <p>
-    The parent is now ready to launch the child process, passing one end of each pipe to the child. Unix operating systems define precise rules regarding how child processes inherit file descriptors from their parents, and Python adds its own layer of safety-oriented semantics. In short, subprocesses launched using the Python 3 <code>subprocess</code> module keep the standard trio of file descriptors open (0, 1, 2, i.e. <code>stdin</code>, <code>stdout</code>, and <code>stderr</code>), but by default close all others prior to executing the child command. However, <code>subprocess.Popen</code> and its derivatives provide an optional parameter <code>pass_fds</code> which lets us specify additional descriptors to keep open.
+    The parent is now ready to launch the child process, passing one end of each pipe to the child. Unix operating systems define precise rules regarding how child processes inherit file descriptors from their parents, and Python adds its own layer of safety-oriented semantics. In short, subprocesses launched using the Python 3 <code class="inline">subprocess</code> module keep the standard trio of file descriptors open (0, 1, 2, i.e. <code class="inline">stdin</code>, <code class="inline">stdout</code>, and <code class="inline">stderr</code>), but by default close all others prior to executing the child command. However, <code class="inline">subprocess.Popen</code> and its derivatives provide an optional parameter <code class="inline">pass_fds</code> which lets us specify additional descriptors to keep open.
   </p>
-  <pre>
-proc  = Popen('./child.py', env=env, pass_fds=child_pair)
-</pre>
+<div class="code-block">
+<code class="line">proc  = Popen('./child.py', env=env, pass_fds=child_pair)</code>
+<code class="line"></code>
+</div>
   <p>
     Here is the crucial detail which motivated this writeup: once the child is forked off, the parent most close the child pair:
   </p>
-  <pre>
-for fd in child_pair:
-  os.close(fd) # crucial; otherwise parent cannot tell when child has closed its pipe or otherwise terminated.</pre>
+<div class="code-block">
+<code class="line">for fd in child_pair:</code>
+<code class="line">  os.close(fd) # crucial; otherwise parent cannot tell when child has closed its pipe or otherwise terminated.</code>
+</div>
   <p>
-    Why? In the Unix OS family, subprocesses are created by first forking the current process, which creates a nearly-identical copy, and then letting one of those copies transform itself into the child. These steps are accomplished in the <code>Popen</code> constructor via the system call <code>fork</code> and the library function <code>exec</code>, respectively. This is a rather clever (and in my opinion unintuitive) trick that you can read about further in <code>man&nbsp;2&nbsp;fork</code> and <code>man&nbsp;3&nbsp;exec</code>. For our purposes, the important detail is that when the fork happens, both copies have an identical table of file descriptors. However the parent process knows from the return value of <code>fork</code> that it is the parent, and the child copy knows that it is the child. The parent gets back the ID of the child, which <code>subprocess</code> packages up into a convenient <code>Popen</code> object. The child performs the cleanup described above, closing outstanding file descriptors, and then calls <code>exec</code> to replace itself with the specified command (in our case <code>'./child.py'</code>).
+    Why? In the Unix OS family, subprocesses are created by first forking the current process, which creates a nearly-identical copy, and then letting one of those copies transform itself into the child. These steps are accomplished in the <code class="inline">Popen</code> constructor via the system call <code class="inline">fork</code> and the library function <code class="inline">exec</code>, respectively. This is a rather clever (and in my opinion unintuitive) trick that you can read about further in <code class="inline">man&nbsp;2&nbsp;fork</code> and <code class="inline">man&nbsp;3&nbsp;exec</code>. For our purposes, the important detail is that when the fork happens, both copies have an identical table of file descriptors. However the parent process knows from the return value of <code class="inline">fork</code> that it is the parent, and the child copy knows that it is the child. The parent gets back the ID of the child, which <code class="inline">subprocess</code> packages up into a convenient <code class="inline">Popen</code> object. The child performs the cleanup described above, closing outstanding file descriptors, and then calls <code class="inline">exec</code> to replace itself with the specified command (in our case <code class="inline">'./child.py'</code>).
   </p>
   <p>
-    OK, so what? Thanks to the <code>pass_fds</code> feature of <code>Popen</code>, the child process automatically closes the descriptors in <code>parent_pair</code> because they were not included in <code>pass_fds</code>. This is good; the child should not have access to the parent's pipe ends. However, the parent's table does not get altered at all; it still has open descriptors for <code>child_pair</code>! In other words, both processes have handles on the 'parent-to-child read' and 'child-to-parent write' pipe ends.
+    OK, so what? Thanks to the <code class="inline">pass_fds</code> feature of <code class="inline">Popen</code>, the child process automatically closes the descriptors in <code class="inline">parent_pair</code> because they were not included in <code class="inline">pass_fds</code>. This is good; the child should not have access to the parent's pipe ends. However, the parent's table does not get altered at all; it still has open descriptors for <code class="inline">child_pair</code>! In other words, both processes have handles on the 'parent-to-child read' and 'child-to-parent write' pipe ends.
   </p>
   <p>
-    This matters because the child-to-parent pipe will only deliver end-of-file to the reader when <b>all</b> handles to the write end are closed (explained in <code>man&nbsp;2&nbsp;pipe</code>; the man page refers to this state as "widowed"). So, if the parent keeps the child-to-parent read pipe end alive, then it cannot detect that the child has closed that pipe. Thus the parent will be stuck waiting for messages even after the child terminates.
+    This matters because the child-to-parent pipe will only deliver end-of-file to the reader when <b>all</b> handles to the write end are closed (explained in <code class="inline">man&nbsp;2&nbsp;pipe</code>; the man page refers to this state as "widowed"). So, if the parent keeps the child-to-parent read pipe end alive, then it cannot detect that the child has closed that pipe. Thus the parent will be stuck waiting for messages even after the child terminates.
   </p>
   <p>
-    The remainder of the demo is straightforward. Each process can read and write to the raw file descriptors using <code>os.read</code> and <code>os.write</code>, but it is more convenient to create high-level file objects from the integer descriptors. Recall that the child gets its descriptors from key-value pairs in its environment, which it must first convert to <code>int</code>:
+    The remainder of the demo is straightforward. Each process can read and write to the raw file descriptors using <code class="inline">os.read</code> and <code class="inline">os.write</code>, but it is more convenient to create high-level file objects from the integer descriptors. Recall that the child gets its descriptors from key-value pairs in its environment, which it must first convert to <code class="inline">int</code>:
   </p>
-  <pre>
-recv = open(int(os.environ['CHILD_RECV']), 'r')
-send = open(int(os.environ['CHILD_SEND']), 'w')</pre>
+<div class="code-block">
+<code class="line">recv = open(int(os.environ['CHILD_RECV']), 'r')</code>
+<code class="line">send = open(int(os.environ['CHILD_SEND']), 'w')</code>
+</div>
   <p>
-    In particular, file objects give us the convenience of reading a line at a time using <code>recv.readline()</code>. Whenever one process tries to read a line from it's readable pipe, it will block (meaning that the OS will suspend it and switch to a different task) until the the other process writes a line into the pipe. The intended usage is for the child to do work, and whenever it needs something from the parent, send a message over its pipe and then wait for a response to come back on the other pipe. The parent on the other hand acts as a server, waiting in a loop for a message to come down its readable pipe, then taking some action and finally writing a response down the other pipe.
+    In particular, file objects give us the convenience of reading a line at a time using <code class="inline">recv.readline()</code>. Whenever one process tries to read a line from it's readable pipe, it will block (meaning that the OS will suspend it and switch to a different task) until the the other process writes a line into the pipe. The intended usage is for the child to do work, and whenever it needs something from the parent, send a message over its pipe and then wait for a response to come back on the other pipe. The parent on the other hand acts as a server, waiting in a loop for a message to come down its readable pipe, then taking some action and finally writing a response down the other pipe.
   </p>
   <p>
     Below is the complete implementation and output.
   </p>
   <p>
-    <a href=https://github.com/gwk/gwk-web/blob/master/glob/pipe-duplex/parent.py>parent.py</a>:
+    <a href="https://github.com/gwk/gwk-web/blob/master/glob/pipe-duplex/parent.py">parent.py</a>:
   <br />
-    <pre>
-#!/usr/bin/env python3
-
-import os
-from subprocess import Popen
-from time import sleep
-
-
-# ANSI console colors.
-RST = '\x1b[0m'
-TXT_R = '\x1b[31m'
-
-def log(*items):
-  print(TXT_R, 'parent: ', *items, RST, sep='')
-
-
-p_to_c_r, p_to_c_w = os.pipe() # parent-to-child.
-c_to_p_r, c_to_p_w = os.pipe() # child-to-parent.
-
-parent_pair = (c_to_p_r, p_to_c_w) # used by parent.
-child_pair  = (p_to_c_r, c_to_p_w) # used by child.
-
-env = os.environ.copy()
-env.update({
-  'CHILD_RECV' : str(child_pair[0]),
-  'CHILD_SEND' : str(child_pair[1]),
-})
-
-proc  = Popen('./child.py', env=env, pass_fds=child_pair)
-
-for fd in child_pair:
-  os.close(fd) # crucial; otherwise parent cannot tell when child has closed its pipe or otherwise terminated.
-
-recv = open(parent_pair[0], 'r')
-send = open(parent_pair[1], 'w')
-
-while True:
-  log('waiting...')
-  line = recv.readline()
-  if not line: break
-  msg = line.rstrip('\n')
-  log('read: ', repr(msg))
-  sleep(0.1)
-  response = 'ack ' + msg
-  log('resp: ', repr(response))
-  print(response, file=send, flush=True)
-
-log('stopped. cleanup...')
-
-for fd in parent_pair:
-  os.close(fd)
-
-proc.wait()
-log(f'done; child exit code: {proc.returncode}')</pre>
+    <div class="code-block">
+    <code class="line"><span class="ch">#!/usr/bin/env python3</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="kn">import</span> <span class="nn">os</span>
+</code>
+    <code class="line"><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">Popen</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="c1"># ANSI console colors.</span>
+</code>
+    <code class="line"><span class="n">RST</span> <span class="o">=</span> <span class="s1">'</span><span class="se">\x1b</span><span class="s1">[0m</span><span class="s1">'</span>
+</code>
+    <code class="line"><span class="n">TXT_R</span> <span class="o">=</span> <span class="s1">'</span><span class="se">\x1b</span><span class="s1">[31m</span><span class="s1">'</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="o">*</span><span class="n">items</span><span class="p">)</span><span class="p">:</span>
+</code>
+    <code class="line">  <span class="k">print</span><span class="p">(</span><span class="n">TXT_R</span><span class="p">,</span> <span class="s1">'</span><span class="s1">parent: </span><span class="s1">'</span><span class="p">,</span> <span class="o">*</span><span class="n">items</span><span class="p">,</span> <span class="n">RST</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">'</span><span class="s1">'</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">p_to_c_r</span><span class="p">,</span> <span class="n">p_to_c_w</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">pipe</span><span class="p">(</span><span class="p">)</span> <span class="c1"># parent-to-child.</span>
+</code>
+    <code class="line"><span class="n">c_to_p_r</span><span class="p">,</span> <span class="n">c_to_p_w</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">pipe</span><span class="p">(</span><span class="p">)</span> <span class="c1"># child-to-parent.</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">parent_pair</span> <span class="o">=</span> <span class="p">(</span><span class="n">c_to_p_r</span><span class="p">,</span> <span class="n">p_to_c_w</span><span class="p">)</span> <span class="c1"># used by parent.</span>
+</code>
+    <code class="line"><span class="n">child_pair</span>  <span class="o">=</span> <span class="p">(</span><span class="n">p_to_c_r</span><span class="p">,</span> <span class="n">c_to_p_w</span><span class="p">)</span> <span class="c1"># used by child.</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">env</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">env</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="p">{</span>
+</code>
+    <code class="line">  <span class="s1">'</span><span class="s1">CHILD_RECV</span><span class="s1">'</span> <span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">child_pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">)</span><span class="p">,</span>
+</code>
+    <code class="line">  <span class="s1">'</span><span class="s1">CHILD_SEND</span><span class="s1">'</span> <span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">child_pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">)</span><span class="p">,</span>
+</code>
+    <code class="line"><span class="p">}</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">proc</span>  <span class="o">=</span> <span class="n">Popen</span><span class="p">(</span><span class="s1">'</span><span class="s1">./child.py</span><span class="s1">'</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="n">env</span><span class="p">,</span> <span class="n">pass_fds</span><span class="o">=</span><span class="n">child_pair</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="k">for</span> <span class="n">fd</span> <span class="ow">in</span> <span class="n">child_pair</span><span class="p">:</span>
+</code>
+    <code class="line">  <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">fd</span><span class="p">)</span> <span class="c1"># crucial; otherwise parent cannot tell when child has closed its pipe or otherwise terminated.</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">recv</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">parent_pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">,</span> <span class="s1">'</span><span class="s1">r</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">send</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">parent_pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="p">,</span> <span class="s1">'</span><span class="s1">w</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+</code>
+    <code class="line">  <span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">waiting...</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="n">line</span> <span class="o">=</span> <span class="n">recv</span><span class="o">.</span><span class="n">readline</span><span class="p">(</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span><span class="p">:</span> <span class="k">break</span>
+</code>
+    <code class="line">  <span class="n">msg</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">read: </span><span class="s1">'</span><span class="p">,</span> <span class="nb">repr</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="n">response</span> <span class="o">=</span> <span class="s1">'</span><span class="s1">ack </span><span class="s1">'</span> <span class="o">+</span> <span class="n">msg</span>
+</code>
+    <code class="line">  <span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">resp: </span><span class="s1">'</span><span class="p">,</span> <span class="nb">repr</span><span class="p">(</span><span class="n">response</span><span class="p">)</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="k">print</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">send</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">stopped. cleanup...</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">recv</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">send</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">proc</span><span class="o">.</span><span class="n">wait</span><span class="p">(</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">log</span><span class="p">(</span><span class="n">f</span><span class="s1">'</span><span class="s1">done; child exit code: {proc.returncode}</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    </div>
   </p>
   <p>
-    <a href=https://github.com/gwk/gwk-web/blob/master/glob/pipe-duplex/child.py>child.py</a>:
+    <a href="https://github.com/gwk/gwk-web/blob/master/glob/pipe-duplex/child.py">child.py</a>:
   <br />
-    <pre>
-#!/usr/bin/env python3
-
-import os
-from time import sleep
-
-
-# ANSI console colors.
-RST = '\x1b[0m'
-TXT_G = '\x1b[32m'
-
-def log(*items):
-  print(TXT_G, 'child: ', *items, RST, sep='')
-
-
-recv = open(int(os.environ['CHILD_RECV']), 'r')
-send = open(int(os.environ['CHILD_SEND']), 'w')
-
-def request(msg):
-  log('send: ', repr(msg))
-  print(msg, file=send, flush=True)
-  log('waiting...')
-  response = recv.readline().rstrip('\n')
-  log('recv: ', repr(response))
-
-for msg in 'abc':
-  request(msg)
-
-log('done.')</pre>
+    <div class="code-block">
+    <code class="line"><span class="ch">#!/usr/bin/env python3</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="kn">import</span> <span class="nn">os</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="c1"># ANSI console colors.</span>
+</code>
+    <code class="line"><span class="n">RST</span> <span class="o">=</span> <span class="s1">'</span><span class="se">\x1b</span><span class="s1">[0m</span><span class="s1">'</span>
+</code>
+    <code class="line"><span class="n">TXT_G</span> <span class="o">=</span> <span class="s1">'</span><span class="se">\x1b</span><span class="s1">[32m</span><span class="s1">'</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="o">*</span><span class="n">items</span><span class="p">)</span><span class="p">:</span>
+</code>
+    <code class="line">  <span class="k">print</span><span class="p">(</span><span class="n">TXT_G</span><span class="p">,</span> <span class="s1">'</span><span class="s1">child: </span><span class="s1">'</span><span class="p">,</span> <span class="o">*</span><span class="n">items</span><span class="p">,</span> <span class="n">RST</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">'</span><span class="s1">'</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">recv</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'</span><span class="s1">CHILD_RECV</span><span class="s1">'</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="s1">'</span><span class="s1">r</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line"><span class="n">send</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'</span><span class="s1">CHILD_SEND</span><span class="s1">'</span><span class="p">]</span><span class="p">)</span><span class="p">,</span> <span class="s1">'</span><span class="s1">w</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="k">def</span> <span class="nf">request</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span><span class="p">:</span>
+</code>
+    <code class="line">  <span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">send: </span><span class="s1">'</span><span class="p">,</span> <span class="nb">repr</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="k">print</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">send</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">waiting...</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="n">response</span> <span class="o">=</span> <span class="n">recv</span><span class="o">.</span><span class="n">readline</span><span class="p">(</span><span class="p">)</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    <code class="line">  <span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">recv: </span><span class="s1">'</span><span class="p">,</span> <span class="nb">repr</span><span class="p">(</span><span class="n">response</span><span class="p">)</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="s1">'</span><span class="s1">abc</span><span class="s1">'</span><span class="p">:</span>
+</code>
+    <code class="line">  <span class="n">request</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</code>
+    <code class="line">
+</code>
+    <code class="line"><span class="n">log</span><span class="p">(</span><span class="s1">'</span><span class="s1">done.</span><span class="s1">'</span><span class="p">)</span>
+</code>
+    </div>
   </p>
   <p>
-    Output (without colors):
+    Output:
   <br />
-    <pre>
-parent: waiting...
-child: send: 'a'
-child: waiting...
-parent: read: 'a'
-parent: resp: 'ack a'
-parent: waiting...
-child: recv: 'ack a'
-child: send: 'b'
-child: waiting...
-parent: read: 'b'
-parent: resp: 'ack b'
-parent: waiting...
-child: recv: 'ack b'
-child: send: 'c'
-child: waiting...
-parent: read: 'c'
-parent: resp: 'ack c'
-parent: waiting...
-child: recv: 'ack c'
-child: done.
-parent: stopped. cleanup...
-parent: done; child exit code: 0
-</pre>
+    <object data="log.html" type="text/html">&lt;error: missing object: 'log.html'&gt;</object>
   </p>
 </section>
 <script type="text/javascript"> "use strict";
 section_ids = ['s0'];
 paging_ids = ['body', 's0'];
 </script>
-</body>
-</html>
 <footer id="footer">
 © George King. All Rights Reserved.
 </footer>
+</body>
+</html>

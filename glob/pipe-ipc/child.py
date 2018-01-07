@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import os
-from time import sleep
 
 
 # ANSI console colors.
@@ -9,7 +8,7 @@ RST = '\x1b[0m'
 TXT_G = '\x1b[32m'
 
 def log(*items):
-  print(TXT_G, 'child: ', *items, RST, sep='')
+  print(TXT_G, 'child: ', *items, RST, sep='', flush=True)
 
 
 recv = open(int(os.environ['CHILD_RECV']), 'r')

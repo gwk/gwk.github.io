@@ -2,7 +2,6 @@
 
 import os
 from subprocess import Popen
-from time import sleep
 
 
 # ANSI console colors.
@@ -10,7 +9,7 @@ RST = '\x1b[0m'
 TXT_R = '\x1b[31m'
 
 def log(*items):
-  print(TXT_R, 'parent: ', *items, RST, sep='')
+  print(TXT_R, 'parent: ', *items, RST, sep='', flush=True)
 
 
 p_to_c_r, p_to_c_w = os.pipe() # parent-to-child.
@@ -39,15 +38,12 @@ while True:
   if not line: break
   msg = line.rstrip('\n')
   log('read: ', repr(msg))
-  sleep(0.1)
   response = 'ack ' + msg
   log('resp: ', repr(response))
   print(response, file=send, flush=True)
 
 log('stopped. cleanup...')
-
-for fd in parent_pair:
-  os.close(fd)
-
+recv.close()
+send.close()
 proc.wait()
 log(f'done; child exit code: {proc.returncode}')

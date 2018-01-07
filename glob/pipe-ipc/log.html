@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <style text="text/css">
+    body { color: white; background: #181818; }
+    pre {
+      background: black;
+      font-family: Source Code Pro, Menlo, Terminal, monospace;
+      font-size: 11;
+    }
+    span.ansi-bold         { font-weight: bold; }
+    span.ansi-underline    { text-decoration: underline; }
+    span.ansi-blink        { text-decoration: blink; }
+      span.ansi-color-k    { color: black; }
+      span.ansi-color-r    { color: red; }
+      span.ansi-color-g    { color: green; }
+      span.ansi-color-y    { color: yellow; }
+      span.ansi-color-b    { color: blue; }
+      span.ansi-color-p    { color: purple; }
+      span.ansi-color-c    { color: cyan; }
+      span.ansi-color-l    { color: lightgray; }
+      span.ansi-bg-color-k { background-color: black; }
+      span.ansi-bg-color-r { background-color: red; }
+      span.ansi-bg-color-g { background-color: green; }
+      span.ansi-bg-color-y { background-color: yellow; }
+      span.ansi-bg-color-b { background-color: blue; }
+      span.ansi-bg-color-p { background-color: purple; }
+      span.ansi-bg-color-c { background-color: cyan; }
+      span.ansi-bg-color-l { background-color: lightgray; }
+  </style>
+</head>
+<body>
+<pre>
+<span class="ansi-color-r">parent: waiting...</span>
+<span class="ansi-color-g">child: send: 'a'</span>
+<span class="ansi-color-g">child: waiting...</span>
+<span class="ansi-color-r">parent: read: 'a'</span>
+<span class="ansi-color-r">parent: resp: 'ack a'</span>
+<span class="ansi-color-r">parent: waiting...</span>
+<span class="ansi-color-g">child: recv: 'ack a'</span>
+<span class="ansi-color-g">child: send: 'b'</span>
+<span class="ansi-color-g">child: waiting...</span>
+<span class="ansi-color-r">parent: read: 'b'</span>
+<span class="ansi-color-r">parent: resp: 'ack b'</span>
+<span class="ansi-color-r">parent: waiting...</span>
+<span class="ansi-color-g">child: recv: 'ack b'</span>
+<span class="ansi-color-g">child: send: 'c'</span>
+<span class="ansi-color-g">child: waiting...</span>
+<span class="ansi-color-r">parent: read: 'c'</span>
+<span class="ansi-color-r">parent: resp: 'ack c'</span>
+<span class="ansi-color-r">parent: waiting...</span>
+<span class="ansi-color-g">child: recv: 'ack c'</span>
+<span class="ansi-color-g">child: done.</span>
+<span class="ansi-color-r">parent: stopped. cleanup...</span>
+<span class="ansi-color-r">parent: done; child exit code: 0</span>
+
+</pre>
+</body>
+</html>
